@@ -10,9 +10,10 @@ namespace src
                 new[] {' ', ' ', ' '},
                 new[] {' ', ' ', ' '}
             };
-            
+
             repository.Save(State);
         }
+
         public char[][] State { get; private set; }
     }
 }
