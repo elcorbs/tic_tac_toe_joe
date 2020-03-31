@@ -17,7 +17,11 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "projectReferences": {}
+        "projectReferences": {
+          "/Users/emmacorbett/Documents/TicTacToeJoe/src/src.csproj": {
+            "projectPath": "/Users/emmacorbett/Documents/TicTacToeJoe/src/src.csproj"
+          }
+        }
       }
     },
     "warningProperties": {
@@ -29,6 +33,10 @@
   "frameworks": {
     "netcoreapp3.1": {
       "dependencies": {
+        "FluentAssertions": {
+          "target": "Package",
+          "version": "[5.10.3, )"
+        },
         "Microsoft.NET.Test.Sdk": {
           "target": "Package",
           "version": "[16.4.0, )"

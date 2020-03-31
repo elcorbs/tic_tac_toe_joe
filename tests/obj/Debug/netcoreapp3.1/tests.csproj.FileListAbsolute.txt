@@ -94,3 +94,9 @@
 /Users/emmacorbett/Documents/TicTacToeJoe/tests/obj/Debug/netcoreapp3.1/tests.dll
 /Users/emmacorbett/Documents/TicTacToeJoe/tests/obj/Debug/netcoreapp3.1/tests.pdb
 /Users/emmacorbett/Documents/TicTacToeJoe/tests/obj/Debug/netcoreapp3.1/tests.genruntimeconfig.cache
+/Users/emmacorbett/Documents/TicTacToeJoe/tests/bin/Debug/netcoreapp3.1/src.dll
+/Users/emmacorbett/Documents/TicTacToeJoe/tests/bin/Debug/netcoreapp3.1/src.pdb
+/Users/emmacorbett/Documents/TicTacToeJoe/tests/bin/Debug/netcoreapp3.1/FluentAssertions.dll
+/Users/emmacorbett/Documents/TicTacToeJoe/tests/bin/Debug/netcoreapp3.1/System.Configuration.ConfigurationManager.dll
+/Users/emmacorbett/Documents/TicTacToeJoe/tests/bin/Debug/netcoreapp3.1/System.Security.Cryptography.ProtectedData.dll
+/Users/emmacorbett/Documents/TicTacToeJoe/tests/bin/Debug/netcoreapp3.1/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
