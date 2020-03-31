@@ -6,7 +6,7 @@ using src;
 
 namespace tests
 {
-    public class Tests
+    public class AcceptanceTests
     {
         private StringWriter _textWriter;
         private TextWriter _tmp;
@@ -28,9 +28,9 @@ namespace tests
         [Test]
         public void EmptyBoardDisplayedAtTheBeginningOfAGame()
         {
-            const string emptyBoard = "   " +
-                                      "   " +
-                                      "   ";
+            const string emptyBoard = "   \n" +
+                                      "   \n" +
+                                      "   \n";
             Program.Main(new string[]{});
             _textWriter.ToString().Should().Be(emptyBoard);
         }

@@ -8,23 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "/Users/emmacorbett/.nuget/packages/": {},
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "/Users/jroberts/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/emmacorbett/Documents/TicTacToeJoe/src/src.csproj",
+      "projectUniqueName": "/Users/jroberts/tic_tac_toe_joe/src/src.csproj",
       "projectName": "src",
-      "projectPath": "/Users/emmacorbett/Documents/TicTacToeJoe/src/src.csproj",
-      "packagesPath": "/Users/emmacorbett/.nuget/packages/",
-      "outputPath": "/Users/emmacorbett/Documents/TicTacToeJoe/src/obj/",
+      "projectPath": "/Users/jroberts/tic_tac_toe_joe/src/src.csproj",
+      "packagesPath": "/Users/jroberts/.nuget/packages/",
+      "outputPath": "/Users/jroberts/tic_tac_toe_joe/src/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "/Users/emmacorbett/.config/NuGet/NuGet.Config"
+        "/Users/jroberts/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -54,7 +50,13 @@
           "net48"
         ],
         "assetTargetFallback": true,
-        "warn": true
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.201/RuntimeIdentifierGraph.json"
       }
     }
   }

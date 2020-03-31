@@ -10,3 +10,15 @@
 /Users/emmacorbett/Documents/TicTacToeJoe/src/obj/Debug/netcoreapp3.1/src.dll
 /Users/emmacorbett/Documents/TicTacToeJoe/src/obj/Debug/netcoreapp3.1/src.pdb
 /Users/emmacorbett/Documents/TicTacToeJoe/src/obj/Debug/netcoreapp3.1/src.genruntimeconfig.cache
+/Users/jroberts/tic_tac_toe_joe/src/bin/Debug/netcoreapp3.1/src.deps.json
+/Users/jroberts/tic_tac_toe_joe/src/bin/Debug/netcoreapp3.1/src.runtimeconfig.json
+/Users/jroberts/tic_tac_toe_joe/src/bin/Debug/netcoreapp3.1/src.runtimeconfig.dev.json
+/Users/jroberts/tic_tac_toe_joe/src/bin/Debug/netcoreapp3.1/src.dll
+/Users/jroberts/tic_tac_toe_joe/src/bin/Debug/netcoreapp3.1/src.pdb
+/Users/jroberts/tic_tac_toe_joe/src/obj/Debug/netcoreapp3.1/src.csprojAssemblyReference.cache
+/Users/jroberts/tic_tac_toe_joe/src/obj/Debug/netcoreapp3.1/src.csproj.CoreCompileInputs.cache
+/Users/jroberts/tic_tac_toe_joe/src/obj/Debug/netcoreapp3.1/src.AssemblyInfoInputs.cache
+/Users/jroberts/tic_tac_toe_joe/src/obj/Debug/netcoreapp3.1/src.AssemblyInfo.cs
+/Users/jroberts/tic_tac_toe_joe/src/obj/Debug/netcoreapp3.1/src.dll
+/Users/jroberts/tic_tac_toe_joe/src/obj/Debug/netcoreapp3.1/src.pdb
+/Users/jroberts/tic_tac_toe_joe/src/obj/Debug/netcoreapp3.1/src.genruntimeconfig.cache

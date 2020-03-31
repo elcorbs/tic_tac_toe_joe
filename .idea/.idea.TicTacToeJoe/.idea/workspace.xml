@@ -2,66 +2,63 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a86d9933-bb89-421c-9e3c-9cbfd4ead530" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Board.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IBoardRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/BoardTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TicTacToeJoe/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TicTacToeJoe/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TicTacToeJoe/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TicTacToeJoe/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/Debug/netcoreapp3.1/src.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/bin/Debug/netcoreapp3.1/src.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/Debug/netcoreapp3.1/src.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/bin/Debug/netcoreapp3.1/src.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/Debug/netcoreapp3.1/src.runtimeconfig.dev.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/bin/Debug/netcoreapp3.1/src.runtimeconfig.dev.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/obj/Debug/netcoreapp3.1/src.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/obj/Debug/netcoreapp3.1/src.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/obj/Debug/netcoreapp3.1/src.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/obj/Debug/netcoreapp3.1/src.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/obj/Debug/netcoreapp3.1/src.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/obj/Debug/netcoreapp3.1/src.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/obj/Debug/netcoreapp3.1/src.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/obj/Debug/netcoreapp3.1/src.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/obj/Debug/netcoreapp3.1/src.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/obj/Debug/netcoreapp3.1/src.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/obj/Debug/netcoreapp3.1/src.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/obj/Debug/netcoreapp3.1/src.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/obj/src.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/obj/src.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/obj/src.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/obj/src.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/obj/src.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/src/obj/src.csproj.nuget.g.props" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/AcceptanceTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/tests/AcceptanceTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/bin/Debug/netcoreapp3.1/nunit_random_seed.tmp" beforeDir="false" afterPath="$PROJECT_DIR$/tests/bin/Debug/netcoreapp3.1/nunit_random_seed.tmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/bin/Debug/netcoreapp3.1/src.dll" beforeDir="false" afterPath="$PROJECT_DIR$/tests/bin/Debug/netcoreapp3.1/src.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/bin/Debug/netcoreapp3.1/src.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/tests/bin/Debug/netcoreapp3.1/src.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/bin/Debug/netcoreapp3.1/tests.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/tests/bin/Debug/netcoreapp3.1/tests.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/bin/Debug/netcoreapp3.1/tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/tests/bin/Debug/netcoreapp3.1/tests.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/bin/Debug/netcoreapp3.1/tests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/tests/bin/Debug/netcoreapp3.1/tests.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/bin/Debug/netcoreapp3.1/tests.runtimeconfig.dev.json" beforeDir="false" afterPath="$PROJECT_DIR$/tests/bin/Debug/netcoreapp3.1/tests.runtimeconfig.dev.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/obj/Debug/netcoreapp3.1/tests.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tests/obj/Debug/netcoreapp3.1/tests.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/obj/Debug/netcoreapp3.1/tests.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tests/obj/Debug/netcoreapp3.1/tests.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/obj/Debug/netcoreapp3.1/tests.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tests/obj/Debug/netcoreapp3.1/tests.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/obj/Debug/netcoreapp3.1/tests.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tests/obj/Debug/netcoreapp3.1/tests.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/obj/Debug/netcoreapp3.1/tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/tests/obj/Debug/netcoreapp3.1/tests.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/obj/Debug/netcoreapp3.1/tests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/tests/obj/Debug/netcoreapp3.1/tests.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/tests/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tests/obj/project.nuget.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/tests/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/obj/tests.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tests/obj/tests.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/obj/tests.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/tests/obj/tests.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/obj/tests.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/tests/obj/tests.csproj.nuget.g.props" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/tests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/tests/tests.csproj" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tests/AcceptanceTests.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="58">
-              <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
-              <folding>
-                <marker date="1585648640427" expanded="true" signature="6:105" ph="..." />
-                <marker date="1585648640427" expanded="true" signature="122:780" ph="{...}" />
-                <marker date="1585648640427" expanded="true" signature="147:778" ph="{...}" />
-                <marker date="1585648640427" expanded="true" signature="240:347" ph="{...}" />
-                <marker date="1585648640427" expanded="true" signature="398:431" ph="{...}" />
-                <marker date="1585648640427" expanded="true" signature="510:772" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/tests.csproj">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Program.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-              <folding>
-                <marker date="1585646908112" expanded="true" signature="28:169" ph="{...}" />
-                <marker date="1585646908112" expanded="true" signature="48:167" ph="{...}" />
-                <marker date="1585646908112" expanded="true" signature="94:161" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/tests/AcceptanceTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/tests/BoardTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Board.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/IBoardRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/tests/AcceptanceTests.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -70,6 +67,11 @@
         <option value="$PROJECT_DIR$/tests/UnitTest1.cs" />
         <option value="$PROJECT_DIR$/tests/tests.csproj" />
         <option value="$PROJECT_DIR$/tests/AcceptanceTests.cs" />
+        <option value="$PROJECT_DIR$/src/BoardRepository.cs" />
+        <option value="$PROJECT_DIR$/src/Program.cs" />
+        <option value="$PROJECT_DIR$/src/IBoardRepository.cs" />
+        <option value="$PROJECT_DIR$/src/Board.cs" />
+        <option value="$PROJECT_DIR$/tests/BoardTests.cs" />
       </list>
     </option>
   </component>
@@ -85,58 +87,22 @@
     <option name="width" value="717" />
     <option name="height" value="820" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator currentView="SolutionExplorer" proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="AssemblyExplorer" />
-      <pane id="SolutionExplorer">
-        <subPane>
-          <expand>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="TicTacToeJoe" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="TicTacToeJoe" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="src" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="TicTacToeJoe" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="tests" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-        <option name="show-all-files" value="false" />
-      </pane>
-      <pane id="Scratches" />
-      <pane id="FileSystemExplorer" />
-    </panes>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.environmentSetup" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected=".NET Project.Default">
     <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
@@ -172,53 +138,104 @@
     </task>
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1453000" />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="820" extended-state="6" />
-    <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="NuGet" />
-      <window_info anchor="bottom" id="Docker" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Unit Tests" visible="true" weight="0.6167582" />
-      <window_info anchor="bottom" id="Terminal" weight="0.24862637" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Performance Profiler" />
-      <window_info anchor="bottom" id="Build" weight="0.32967034" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Errors In Solution" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Unit Tests Coverage" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1398" height="303" key="GridCell.Tab.0.bottom" timestamp="1585651618195">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1585651618195" />
+    <state width="1398" height="303" key="GridCell.Tab.0.center" timestamp="1585651618194">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1585651618194" />
+    <state width="1398" height="303" key="GridCell.Tab.0.left" timestamp="1585651618193">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1585651618193" />
+    <state width="1398" height="303" key="GridCell.Tab.0.right" timestamp="1585651618194">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1585651618194" />
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1585651618061">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1585651618061" />
+    <state width="1398" height="303" key="GridCell.Tab.1.center" timestamp="1585651618060">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1585651618060" />
+    <state width="1398" height="303" key="GridCell.Tab.1.left" timestamp="1585651618060">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1585651618060" />
+    <state width="1398" height="303" key="GridCell.Tab.1.right" timestamp="1585651618061">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1585651618061" />
+    <state width="1398" height="303" key="GridCell.Tab.2.bottom" timestamp="1585651618063">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.2.bottom/0.0.1440.900@0.0.1440.900" timestamp="1585651618063" />
+    <state width="1398" height="303" key="GridCell.Tab.2.center" timestamp="1585651618062">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.2.center/0.0.1440.900@0.0.1440.900" timestamp="1585651618062" />
+    <state width="1398" height="303" key="GridCell.Tab.2.left" timestamp="1585651618062">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.2.left/0.0.1440.900@0.0.1440.900" timestamp="1585651618062" />
+    <state width="1398" height="303" key="GridCell.Tab.2.right" timestamp="1585651618063">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.2.right/0.0.1440.900@0.0.1440.900" timestamp="1585651618063" />
+    <state width="1398" height="303" key="GridCell.Tab.3.bottom" timestamp="1585651618065">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.3.bottom/0.0.1440.900@0.0.1440.900" timestamp="1585651618065" />
+    <state width="1398" height="303" key="GridCell.Tab.3.center" timestamp="1585651618064">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.3.center/0.0.1440.900@0.0.1440.900" timestamp="1585651618064" />
+    <state width="1398" height="303" key="GridCell.Tab.3.left" timestamp="1585651618064">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.3.left/0.0.1440.900@0.0.1440.900" timestamp="1585651618064" />
+    <state width="1398" height="303" key="GridCell.Tab.3.right" timestamp="1585651618065">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.3.right/0.0.1440.900@0.0.1440.900" timestamp="1585651618065" />
+    <state width="1398" height="303" key="GridCell.Tab.4.bottom" timestamp="1585651618067">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.4.bottom/0.0.1440.900@0.0.1440.900" timestamp="1585651618067" />
+    <state width="1398" height="303" key="GridCell.Tab.4.center" timestamp="1585651618066">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.4.center/0.0.1440.900@0.0.1440.900" timestamp="1585651618066" />
+    <state width="1398" height="303" key="GridCell.Tab.4.left" timestamp="1585651618066">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.4.left/0.0.1440.900@0.0.1440.900" timestamp="1585651618066" />
+    <state width="1398" height="303" key="GridCell.Tab.4.right" timestamp="1585651618067">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.4.right/0.0.1440.900@0.0.1440.900" timestamp="1585651618067" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -226,45 +243,20 @@
           <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
           <option name="timeStamp" value="1" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/tests/BoardTests.cs</url>
+          <line>32</line>
+          <properties documentPath="$PROJECT_DIR$/tests/BoardTests.cs" initialLine="32">
+            <startOffsets>
+              <option value="726" />
+            </startOffsets>
+            <endOffsets>
+              <option value="770" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/TicTacToeJoe.sln">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/src.csproj">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/tests.csproj">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Program.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-          <folding>
-            <marker date="1585646908112" expanded="true" signature="28:169" ph="{...}" />
-            <marker date="1585646908112" expanded="true" signature="48:167" ph="{...}" />
-            <marker date="1585646908112" expanded="true" signature="94:161" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/AcceptanceTests.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
-          <folding>
-            <marker date="1585648640427" expanded="true" signature="6:105" ph="..." />
-            <marker date="1585648640427" expanded="true" signature="122:780" ph="{...}" />
-            <marker date="1585648640427" expanded="true" signature="147:778" ph="{...}" />
-            <marker date="1585648640427" expanded="true" signature="240:347" ph="{...}" />
-            <marker date="1585648640427" expanded="true" signature="398:431" ph="{...}" />
-            <marker date="1585648640427" expanded="true" signature="510:772" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>
