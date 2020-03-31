@@ -14,7 +14,7 @@
         "outputPath": "/Users/jroberts/tic_tac_toe_joe/src/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/jroberts/.config/NuGet/NuGet.Config"
+          "/Users/jroberts/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -64,7 +64,7 @@
         "outputPath": "/Users/jroberts/tic_tac_toe_joe/tests/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/jroberts/.config/NuGet/NuGet.Config"
+          "/Users/jroberts/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -90,6 +90,10 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "AutoFixture": {
+              "target": "Package",
+              "version": "[4.11.0, )"
+            },
             "FluentAssertions": {
               "target": "Package",
               "version": "[5.10.3, )"

@@ -208,3 +208,5 @@
 /Users/emmacorbett/Documents/TicTacToeJoe/tests/bin/Debug/netcoreapp3.1/Moq.dll
 /Users/emmacorbett/Documents/TicTacToeJoe/tests/bin/Debug/netcoreapp3.1/AutoFixture.dll
 /Users/emmacorbett/Documents/TicTacToeJoe/tests/bin/Debug/netcoreapp3.1/Fare.dll
+/Users/jroberts/tic_tac_toe_joe/tests/bin/Debug/netcoreapp3.1/AutoFixture.dll
+/Users/jroberts/tic_tac_toe_joe/tests/bin/Debug/netcoreapp3.1/Fare.dll
