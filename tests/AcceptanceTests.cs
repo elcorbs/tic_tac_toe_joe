@@ -1,6 +1,9 @@
 using System;
 using System.IO;
+using System.Text;
+using System.Threading.Tasks;
 using FluentAssertions;
+using Moq;
 using NUnit.Framework;
 using src;
 
@@ -8,56 +11,56 @@ namespace tests
 {
     public class AcceptanceTests
     {
-        private StringWriter _textWriter;
-        private TextWriter _tmpWriter;
-        private TextReader _tmpReader;
+        private Mock<TextWriter> _textWriter;
+        private Mock<TextReader> _textReader;
 
         [SetUp]
         public void Setup()
         {
-            _tmpWriter = Console.Out;
-            _tmpReader = Console.In;
-        }
+            _textReader = new Mock<TextReader>();
+            _textWriter = new Mock<TextWriter>();
 
-        [TearDown]
-        public void TearDown()
-        {
-            Console.SetOut(_tmpWriter);
-            Console.SetIn(_tmpReader);
+            Console.SetOut(_textWriter.Object);
+            Console.SetIn(_textReader.Object);
         }
 
         [Test]
         public void EmptyBoardDisplayedAtTheBeginningOfAGame()
         {
+            PlayGame();
+
             const string emptyBoard = "   \n" +
                                       "   \n" +
-                                      "   \n";
-            ResetTextWriter();
-            Program.Main(new string[]{});
-            _textWriter.ToString().Should().Be(emptyBoard);
+                                      "   ";
+            AssertNextBoardReturnedIs(emptyBoard);
         }
 
         [Test]
         public void PlacingFirstMoveShowsCorrectBoard()
         {
-            Program.Main(new string[]{});
-            ResetTextWriter();
-            WriteToConsole("1,1");
-            const string board = "X  \n" + 
-                                 "   \n" +
-                                 "   \n";
-            _textWriter.ToString().Should().Be(board);
+            MockWriteToConsole("1,1");
+            PlayGame();
+
+            const string expectedBoard = "X  \n" +
+                                         "   \n" +
+                                         "   ";
+            AssertNextBoardReturnedIs(expectedBoard);
         }
 
-        private void WriteToConsole(string s)
+        private void AssertNextBoardReturnedIs(string board)
         {
-            Console.SetIn(new StringReader(s));
+
+            _textWriter.Verify(x => x.WriteLine(board));
         }
 
-        private void ResetTextWriter()
+        private void MockWriteToConsole(string s)
         {
-            _textWriter = new StringWriter();
-            Console.SetOut(_textWriter);
+            _textReader.Setup(x => x.ReadLine()).Returns(s);
+        }
+
+        private static void PlayGame()
+        {
+            Program.Main(new string[] { });
         }
     }
 }

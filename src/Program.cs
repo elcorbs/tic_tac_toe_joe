@@ -8,10 +8,11 @@ namespace src
         {
             var repository = new BoardRepository("board.txt");
             var controller = new GameController(repository);
-            var view = new GameView();
 
-            var board = controller.Reset();
-            Console.WriteLine(view.PrintBoard(board));
+            Console.WriteLine(GameView.PrintBoard(controller.Reset()));
+            Console.ReadLine();
+            var board = GameView.PrintBoard(controller.Move(1, 1));
+            Console.WriteLine(board);
         }
     }
 }

@@ -35,11 +35,11 @@ namespace tests
         public void ResetSavesTheBoard()
         {
             _gameController.Reset();
-            _repository.Verify(repo => repo.Save(BoardsEqual(_emptyBoard)), Times.Once);
+            _repository.Verify(repo => repo.Save(BoardEquals(_emptyBoard)), Times.Once);
         }
 
         [Test]
-        public void MoveReturnsCorrectBoardForFirstTurn()
+        public void MoveReturnsCorrectBoardWhenPlacingXInTopRight()
         {
             _repository.Setup(x => x.Load()).Returns(_emptyBoard);
             var firstTurnBoard = new []{
@@ -52,19 +52,45 @@ namespace tests
         }
 
         [Test]
-        public void MoveReturnsCorrectBoardForDifferentFirstTurn()
+        public void MoveReturnsCorrectBoardWhenPlacingXInTopMiddle()
         {
             _repository.Setup(x => x.Load()).Returns(_emptyBoard);
             var firstTurnBoard = new []{
-                new char[] {' ', 'X', ' '},
-                new char[] {' ', ' ', ' '},
-                new char[] {' ', ' ', ' '}
+                new [] {' ', 'X', ' '},
+                new [] {' ', ' ', ' '},
+                new [] {' ', ' ', ' '}
             };
             var board = _gameController.Move(2, 1);
             board.Should().BeEquivalentTo(firstTurnBoard, options => options.WithStrictOrdering());
         }
 
-        private static char[][] BoardsEqual(char[][] state)
+        [Test]
+        public void MoveReturnsCorrectBoardWhenPlacingXInCentre()
+        {
+            _repository.Setup(x => x.Load()).Returns(_emptyBoard);
+            var firstTurnBoard = new []{
+                new [] {' ', ' ', ' '},
+                new [] {' ', 'X', ' '},
+                new [] {' ', ' ', ' '}
+            };
+            var board = _gameController.Move(2, 2);
+            board.Should().BeEquivalentTo(firstTurnBoard, options => options.WithStrictOrdering());
+        }
+
+        [Test]
+        public void MoveSavesUpdatesBoard()
+        {
+            _repository.Setup(x => x.Load()).Returns(_emptyBoard);
+            var firstTurnBoard = new []{
+                new [] {' ', ' ', ' '},
+                new [] {' ', 'X', ' '},
+                new [] {' ', ' ', ' '}
+            };
+            _gameController.Move(2, 2);
+            _repository.Verify(x => x.Save(BoardEquals(firstTurnBoard)));
+        }
+
+        private static char[][] BoardEquals(char[][] state)
         {
             return It.Is<char[][]>(s => s[0][0] == state[0][0]
                                         && s[0][1] == state[0][1]

@@ -24,7 +24,8 @@ namespace src
         public char[][] Move(int x, int y)
         {
             _board.State = _repository.Load();
-            _board.State[0][x-1] = 'X';
+            _board.State[y-1][x-1] = 'X';
+            _repository.Save(_board.State);
             return _board.State;
         }
     }
