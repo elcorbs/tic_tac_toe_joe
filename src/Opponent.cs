@@ -3,8 +3,76 @@ using System.Linq;
 
 namespace src
 {
+
     public class Opponent
     {
+        private const int OPPONENT = 1;
+        private const int EMPTY = 0;
+        private const int PLAYER = -1;
+
+        public static int MiniMax(int[] board, int depth, bool maximising)
+        {
+            
+            if (IsBoardInTerminalState(board))
+            {    
+                return board.Sum();
+            }
+
+            if (maximising)
+            {
+                var bestVal = int.MinValue;
+                for (var i = 0; i < 9; i++)
+                {
+                    if (board[i] != EMPTY) continue;
+                    var newBoard = board.ToArray();
+                    newBoard[i] = 1;
+                    var value = MiniMax(newBoard, depth + 1, true);
+                    bestVal = Math.Max(bestVal, value);
+                }
+
+                return bestVal;
+            }
+            else
+            {
+                var bestVal = int.MaxValue;
+                for (var i = 0; i < 9; i++)
+                {
+                    if (board[i] != EMPTY) continue;
+                    var newBoard = board.ToArray();
+                    newBoard[i] = -1;
+                    var value = MiniMax(newBoard, depth + 1, false);
+                    bestVal = Math.Min(bestVal, value);
+                }
+
+                return bestVal;
+            }
+        }
+
+        public static int NextMove(int[] board, bool maximising=true)
+        {
+            var nextMove = -1;
+            var bestScore = Opponent.MiniMax(board, 0, maximising);
+            for (int i = 0; i < 9; i++)
+            {
+                if (board[i] != 0) continue;
+                var newBoard = board.ToArray();
+                newBoard[i] = 0;
+                var score = MiniMax(newBoard, 0, maximising);
+                if (score >= bestScore) nextMove = i;
+            }
+
+            return nextMove;
+        }
+
+        public static bool IsBoardInTerminalState(int[] board)
+        {
+            foreach (var i in board)
+                if (i == EMPTY)
+                    return false;
+            
+            return true;
+        }
+        
         public static Tuple<int, int> MakeMove(char[][] board)
         {
             var flatBoard = board[0].Concat(board[1]).Concat(board[2]).ToArray();
@@ -16,9 +84,7 @@ namespace src
                 var tempBoard = flatBoard.ToArray();
                 tempBoard[i] = 'O';
 
-                if (WonOnAColumn(tempBoard)) return IndexToCoordinate(i);
-
-                if (WonOnRows(tempBoard)) return IndexToCoordinate(i);
+                if (CheckWin(tempBoard)) return IndexToCoordinate(i);
             }
 
             for (var i = 0; i < flatBoard.Length; i++)
@@ -30,6 +96,19 @@ namespace src
             }
 
             return null;
+        }
+
+        private static bool CheckWin(char[] tempBoard)
+        {
+            return WonOnAColumn(tempBoard)
+                   || WonOnRows(tempBoard)
+                   || WonOnDiagonals(tempBoard);
+        }
+
+        private static bool WonOnDiagonals(char[] tempBoard)
+        {
+            return tempBoard[0] == 'O' && tempBoard[4] == 'O' && tempBoard[8] == 'O'
+                   || tempBoard[2] == 'O' && tempBoard[4] == 'O' && tempBoard[6] == 'O';
         }
 
         private static bool WonOnRows(char[] tempBoard)
