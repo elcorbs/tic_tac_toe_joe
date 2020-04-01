@@ -12,25 +12,28 @@ namespace src
             var board = new[]
             {
                 0, 0, 0,
-                0, -1, 0,
+                0, 0, 0,
                 0, 0, 0
             };
 
             while (true)
             {
-                if (Opponent.IsBoardInTerminalState(board)) break;
-                Console.WriteLine($"Turn: {++turn}");
-                Console.WriteLine("Opponent's turn");
-                var opponentMove = Opponent.NextMove(board, true);
-                board[opponentMove] = 1;
                 PrintBoard(board);
+
+                if (Opponent.IsBoardInTerminalState(board)) break;
+                
+                Console.Write("Enter the square you'd like to play:");
+                var playerMove = Console.ReadLine() ;
+                var i = int.Parse(playerMove);
+                board[i] = Opponent.PLAYER;
                 
                 if (Opponent.IsBoardInTerminalState(board)) break;
-                Console.WriteLine("Player's turn");
-                var playerMove = Opponent.NextMove(board, false);
-                board[playerMove] = -1;
-                PrintBoard(board);
+                
+                var opponentMove = Opponent.NextMove(board, true);
+                board[opponentMove] = Opponent.OPPONENT;
             }
+            
+            PrintBoard(board);
 
             /*var repository = new BoardRepository("board.txt");
             var controller = new GameController(repository);
@@ -41,7 +44,7 @@ namespace src
             Console.WriteLine(board);*/
         }
     
-        private static void PrintBoard(int[] board)
+        public static void PrintBoard(int[] board)
         {
             var chars = board.Select(x =>
                 {

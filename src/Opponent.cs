@@ -1,14 +1,15 @@
 using System;
 using System.Linq;
+using System.Runtime.InteropServices.ComTypes;
 
 namespace src
 {
 
     public class Opponent
     {
-        private const int OPPONENT = 1;
-        private const int EMPTY = 0;
-        private const int PLAYER = -1;
+        public static int OPPONENT = 1;
+        public static int EMPTY = 0;
+        public static int PLAYER = -1;
 
         public static int MiniMax(int[] board, int depth, bool maximising)
         {
@@ -25,7 +26,7 @@ namespace src
                 {
                     if (board[i] != EMPTY) continue;
                     var newBoard = board.ToArray();
-                    newBoard[i] = 1;
+                    newBoard[i] = OPPONENT;
                     var value = MiniMax(newBoard, depth + 1, true);
                     bestVal = Math.Max(bestVal, value);
                 }
@@ -39,7 +40,7 @@ namespace src
                 {
                     if (board[i] != EMPTY) continue;
                     var newBoard = board.ToArray();
-                    newBoard[i] = -1;
+                    newBoard[i] = PLAYER;
                     var value = MiniMax(newBoard, depth + 1, false);
                     bestVal = Math.Min(bestVal, value);
                 }
@@ -56,16 +57,34 @@ namespace src
             {
                 if (board[i] != 0) continue;
                 var newBoard = board.ToArray();
-                newBoard[i] = 0;
+                newBoard[i] = OPPONENT;
                 var score = MiniMax(newBoard, 0, maximising);
                 if (score >= bestScore) nextMove = i;
+                Program.PrintBoard(newBoard);
+                Console.WriteLine(score);
             }
+            
 
             return nextMove;
         }
 
         public static bool IsBoardInTerminalState(int[] board)
         {
+            for (int i = 0; i < 3; i++)
+            {
+                if (Math.Abs(board[i] + board[i + 3] + board[i + 6]) == 3)
+                    return true;
+                
+                if (Math.Abs(board[i * 3] + board[i * 3 + 1] + board[i * 3 + 2]) == 3)
+                    return true;
+                
+                if (Math.Abs(board[0] + board[4] + board[8]) == 3)
+                    return true;
+
+                if (Math.Abs(board[2] + board[4] + board[6]) == 3)
+                    return true;
+            }
+
             foreach (var i in board)
                 if (i == EMPTY)
                     return false;
