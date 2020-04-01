@@ -47,6 +47,18 @@ namespace tests
             AssertNextBoardReturnedIs(expectedBoard);
         }
 
+        [Test]
+        public void PlacingFirstMoveAndOpponentMakesMove()
+        {
+            MockWriteToConsole("1,1");
+            PlayGame();
+
+            const string expectedBoard = "X  \n" +
+                                         " O \n" +
+                                         "   ";
+            AssertNextBoardReturnedIs(expectedBoard);
+        }
+
         private void AssertNextBoardReturnedIs(string board)
         {
 
