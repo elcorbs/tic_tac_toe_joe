@@ -26,7 +26,7 @@ namespace tests
                 new[] {'X', ' ', 'O'}
             };
 
-            _opponent.MakeMove(board).Should().BeEquivalentTo(new Tuple<int, int>(2, 3));
+            Opponent.MakeMove(board).Should().BeEquivalentTo(new Tuple<int, int>(2, 3));
         }
 
         [Test]
@@ -39,7 +39,7 @@ namespace tests
                 new[] {'X', 'X', 'O'}
             };
 
-            _opponent.MakeMove(board).Should().BeEquivalentTo(new Tuple<int, int>(2, 1));
+            Opponent.MakeMove(board).Should().BeEquivalentTo(new Tuple<int, int>(2, 1));
         }
 
         [Test]
@@ -52,7 +52,7 @@ namespace tests
                 new[] {' ', 'X', ' '}
             };
 
-            _opponent.MakeMove(board).Should().BeEquivalentTo(new Tuple<int, int>(1, 3));
+            Opponent.MakeMove(board).Should().BeEquivalentTo(new Tuple<int, int>(1, 3));
         }
 
         [Test]
@@ -65,7 +65,7 @@ namespace tests
                 new[] {' ', 'X', ' '}
             };
 
-            _opponent.MakeMove(board).Should().BeEquivalentTo(new Tuple<int, int>(3, 3));
+            Opponent.MakeMove(board).Should().BeEquivalentTo(new Tuple<int, int>(3, 3));
         }
 
         [Test]
@@ -78,7 +78,7 @@ namespace tests
                 new[] {' ', ' ', ' '}
             };
 
-            _opponent.MakeMove(board).Should().BeEquivalentTo(new Tuple<int, int>(2, 3));
+            Opponent.MakeMove(board).Should().BeEquivalentTo(new Tuple<int, int>(2, 3));
         }
 
         [Test]
@@ -91,7 +91,7 @@ namespace tests
                 new[] {' ', 'O', ' '}
             };
 
-            _opponent.MakeMove(board).Should().BeEquivalentTo(new Tuple<int, int>(2, 2));
+            Opponent.MakeMove(board).Should().BeEquivalentTo(new Tuple<int, int>(2, 2));
         }
 
         [Test]
@@ -104,20 +104,48 @@ namespace tests
                 new[] {' ', 'O', ' '}
             };
 
-            _opponent.MakeMove(board).Should().BeEquivalentTo(new Tuple<int, int>(2, 1));
+            Opponent.MakeMove(board).Should().BeEquivalentTo(new Tuple<int, int>(2, 1));
         }
 
         [Test]
-        public void OpponentCannotMakeWinningMove()
+        public void OpponentMakesWinningMoveSecondRow()
         {
             var board = new[]
             {
-                new[] {'O', 'X', 'O'},
-                new[] {'O', ' ', 'O'},
-                new[] {'X', 'X', ' '}
+                new[] {'X', ' ', 'X'},
+                new[] {'O', 'O', ' '},
+                new[] {'X', ' ', ' '}
             };
 
-            _opponent.MakeMove(board).Should().BeEquivalentTo(new Tuple<int, int>(3, 3));
+            Opponent.MakeMove(board).Should().BeEquivalentTo(new Tuple<int, int>(3, 2));
+        }
+
+        [Test]
+        public void OpponentMakesWinningMoveLastRow()
+        {
+            var board = new[]
+            {
+                new[] {'X', ' ', 'X'},
+                new[] {'X', ' ', ' '},
+                new[] {'O', 'O', ' '}
+
+            };
+
+            Opponent.MakeMove(board).Should().BeEquivalentTo(new Tuple<int, int>(3, 3));
+        }
+
+        [Test]
+        public void OpponentMakesWinningMoveFirstRow()
+        {
+            var board = new[]
+            {
+                new[] {'O', 'O', ' '},
+                new[] {'X', ' ', ' '},
+                new[] {' ', 'X', ' '}
+
+            };
+
+            Opponent.MakeMove(board).Should().BeEquivalentTo(new Tuple<int, int>(3, 1));
         }
     }
 }

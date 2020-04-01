@@ -5,18 +5,20 @@ namespace src
 {
     public class Opponent
     {
-        public Tuple<int, int> MakeMove(char[][] board)
+        public static Tuple<int, int> MakeMove(char[][] board)
         {
             var flatBoard = board[0].Concat(board[1]).Concat(board[2]).ToArray();
 
-            for (var i = 0; i < 3; i++)
+            for (var i = 0; i < flatBoard.Length; i++)
             {
-                if (flatBoard[i] == 'O' && flatBoard[i + 3] == 'O' && flatBoard[i + 6] == ' ')
-                    return IndexToCoordinate(i + 6);
-                if (flatBoard[i] == 'O' && flatBoard[i + 3] == ' ' && flatBoard[i + 6] == 'O')
-                    return IndexToCoordinate(i + 3);
-                if (flatBoard[i] == ' ' && flatBoard[i + 3] == 'O' && flatBoard[i + 6] == 'O')
-                    return IndexToCoordinate(i);
+                if (flatBoard[i] != ' ') continue;
+
+                var tempBoard = flatBoard.ToArray();
+                tempBoard[i] = 'O';
+
+                if (WonOnAColumn(tempBoard)) return IndexToCoordinate(i);
+
+                if (WonOnRows(tempBoard)) return IndexToCoordinate(i);
             }
 
             for (var i = 0; i < flatBoard.Length; i++)
@@ -30,7 +32,30 @@ namespace src
             return null;
         }
 
-        private Tuple<int, int> IndexToCoordinate(int i)
+        private static bool WonOnRows(char[] tempBoard)
+        {
+            for (var i = 0; i < 3; i++)
+            {
+                var row = 3 * i;
+                if (tempBoard[row] == 'O' && tempBoard[row + 1] == 'O' && tempBoard[row + 2] == 'O')
+                    return true;
+            }
+
+            return false;
+        }
+
+        private static bool WonOnAColumn(char[] board)
+        {
+            for (var j = 0; j < 3; j++)
+            {
+                if (board[j] == 'O' && board[j + 3] == 'O' && board[j + 6] == 'O')
+                    return true;
+            }
+
+            return false;
+        }
+
+        private static Tuple<int, int> IndexToCoordinate(int i)
         {
             return new Tuple<int, int>(i%3+1, i/3+1);
         }
