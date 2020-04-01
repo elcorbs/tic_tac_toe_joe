@@ -2,193 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a86d9933-bb89-421c-9e3c-9cbfd4ead530" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/GameController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GameView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameView.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bin/Debug/netcoreapp3.1/src.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/bin/Debug/netcoreapp3.1/src.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bin/Debug/netcoreapp3.1/src.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/bin/Debug/netcoreapp3.1/src.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bin/Debug/netcoreapp3.1/src.runtimeconfig.dev.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/bin/Debug/netcoreapp3.1/src.runtimeconfig.dev.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/obj/Debug/netcoreapp3.1/src.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/obj/Debug/netcoreapp3.1/src.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/obj/Debug/netcoreapp3.1/src.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/obj/Debug/netcoreapp3.1/src.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/obj/Debug/netcoreapp3.1/src.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/obj/Debug/netcoreapp3.1/src.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/obj/Debug/netcoreapp3.1/src.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/obj/Debug/netcoreapp3.1/src.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/obj/Debug/netcoreapp3.1/src.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/obj/Debug/netcoreapp3.1/src.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/obj/src.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/obj/src.csproj.nuget.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/obj/src.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/src/obj/src.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/AcceptanceTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/tests/AcceptanceTests.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/GameControllerTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/tests/GameControllerTests.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/GameViewTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/tests/GameViewTests.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/bin/Debug/netcoreapp3.1/nunit_random_seed.tmp" beforeDir="false" afterPath="$PROJECT_DIR$/tests/bin/Debug/netcoreapp3.1/nunit_random_seed.tmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/bin/Debug/netcoreapp3.1/src.dll" beforeDir="false" afterPath="$PROJECT_DIR$/tests/bin/Debug/netcoreapp3.1/src.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/bin/Debug/netcoreapp3.1/src.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/tests/bin/Debug/netcoreapp3.1/src.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/bin/Debug/netcoreapp3.1/tests.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/tests/bin/Debug/netcoreapp3.1/tests.deps.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/bin/Debug/netcoreapp3.1/tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/tests/bin/Debug/netcoreapp3.1/tests.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/bin/Debug/netcoreapp3.1/tests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/tests/bin/Debug/netcoreapp3.1/tests.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/bin/Debug/netcoreapp3.1/tests.runtimeconfig.dev.json" beforeDir="false" afterPath="$PROJECT_DIR$/tests/bin/Debug/netcoreapp3.1/tests.runtimeconfig.dev.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/obj/Debug/netcoreapp3.1/tests.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tests/obj/Debug/netcoreapp3.1/tests.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/obj/Debug/netcoreapp3.1/tests.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tests/obj/Debug/netcoreapp3.1/tests.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/obj/Debug/netcoreapp3.1/tests.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tests/obj/Debug/netcoreapp3.1/tests.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/obj/Debug/netcoreapp3.1/tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/tests/obj/Debug/netcoreapp3.1/tests.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/obj/Debug/netcoreapp3.1/tests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/tests/obj/Debug/netcoreapp3.1/tests.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/tests/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/tests/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/obj/tests.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tests/obj/tests.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/obj/tests.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/tests/obj/tests.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/obj/tests.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/tests/obj/tests.csproj.nuget.dgspec.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/GameControllerTests.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="90" column="9" lean-forward="true" selection-start-line="90" selection-start-column="9" selection-end-line="90" selection-end-column="9" />
-              <folding>
-                <marker date="1585666305033" expanded="false" signature="6:68" ph="..." />
-                <marker date="1585666305033" expanded="true" signature="85:3639" ph="{...}" />
-                <marker date="1585666305033" expanded="true" signature="142:3637" ph="{...}" />
-                <marker date="1585666305033" expanded="true" signature="331:642" ph="{...}" />
-                <marker date="1585666305033" expanded="true" signature="500:631" ph="{...}" />
-                <marker date="1585666305033" expanded="true" signature="703:828" ph="{...}" />
-                <marker date="1585666305033" expanded="true" signature="885:1031" ph="{...}" />
-                <marker date="1585666305033" expanded="true" signature="1115:1526" ph="{...}" />
-                <marker date="1585666305033" expanded="true" signature="1232:1363" ph="{...}" />
-                <marker date="1585666305033" expanded="true" signature="1611:2025" ph="{...}" />
-                <marker date="1585666305033" expanded="true" signature="1728:1862" ph="{...}" />
-                <marker date="1585666305033" expanded="true" signature="2107:2521" ph="{...}" />
-                <marker date="1585666305033" expanded="true" signature="2224:2358" ph="{...}" />
-                <marker date="1585666305033" expanded="true" signature="2581:2957" ph="{...}" />
-                <marker date="1585666305033" expanded="true" signature="2698:2832" ph="{...}" />
-                <marker date="1585666305033" expanded="false" signature="3018:3631" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/BoardRepository.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
-              <folding>
-                <marker date="1585655531030" expanded="true" signature="6:35" ph="..." />
-                <marker date="1585655531030" expanded="true" signature="50:638" ph="{...}" />
-                <marker date="1585655531030" expanded="true" signature="104:636" ph="{...}" />
-                <marker date="1585655531030" expanded="true" signature="202:256" ph="{...}" />
-                <marker date="1585655531030" expanded="true" signature="298:441" ph="{...}" />
-                <marker date="1585655531030" expanded="true" signature="473:630" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/GameController.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="26" column="41" lean-forward="true" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
-              <folding>
-                <marker date="1585666335305" expanded="true" signature="13:815" ph="{...}" />
-                <marker date="1585666335305" expanded="true" signature="47:813" ph="{...}" />
-                <marker date="1585666335305" expanded="true" signature="189:281" ph="{...}" />
-                <marker date="1585666335305" expanded="true" signature="313:577" ph="{...}" />
-                <marker date="1585666335305" expanded="true" signature="358:489" ph="{...}" />
-                <marker date="1585666335305" expanded="true" signature="621:807" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Program.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-              <folding>
-                <marker date="1585667393826" expanded="true" signature="28:471" ph="{...}" />
-                <marker date="1585667393826" expanded="true" signature="55:469" ph="{...}" />
-                <marker date="1585667393826" expanded="true" signature="108:463" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/GameView.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-              <folding>
-                <marker date="1585667358007" expanded="true" signature="13:326" ph="{...}" />
-                <marker date="1585667358007" expanded="true" signature="41:324" ph="{...}" />
-                <marker date="1585667358007" expanded="true" signature="103:318" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/GameViewTests.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="45" column="14" lean-forward="true" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
-              <folding>
-                <marker date="1585667358004" expanded="true" signature="6:76" ph="..." />
-                <marker date="1585667358004" expanded="true" signature="93:1456" ph="{...}" />
-                <marker date="1585667358004" expanded="true" signature="144:1454" ph="{...}" />
-                <marker date="1585667358004" expanded="true" signature="237:352" ph="{...}" />
-                <marker date="1585667358004" expanded="true" signature="435:529" ph="{...}" />
-                <marker date="1585667358004" expanded="true" signature="592:758" ph="{...}" />
-                <marker date="1585667358004" expanded="true" signature="829:1349" ph="{...}" />
-                <marker date="1585667358004" expanded="true" signature="891:1109" ph="{...}" />
-                <marker date="1585667358004" expanded="true" signature="1384:1448" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tests/AcceptanceTests.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="38" column="12" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
-              <folding>
-                <marker date="1585668000384" expanded="true" signature="6:118" ph="..." />
-                <marker date="1585668000384" expanded="true" signature="135:1640" ph="{...}" />
-                <marker date="1585668000384" expanded="true" signature="170:1638" ph="{...}" />
-                <marker date="1585668000384" expanded="true" signature="345:440" ph="{...}" />
-                <marker date="1585668000384" expanded="true" signature="491:590" ph="{...}" />
-                <marker date="1585668000384" expanded="true" signature="669:967" ph="{...}" />
-                <marker date="1585668000384" expanded="true" signature="1039:1350" ph="{...}" />
-                <marker date="1585668000384" expanded="true" signature="1397:1474" ph="{...}" />
-                <marker date="1585668000384" expanded="true" signature="1514:1632" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/tests/AcceptanceTests.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/tests/BoardRepositoryTests.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/GameView.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/IBoardRepository.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/tests/GameControllerTests.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/GameController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/Board.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/tests/GameViewTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/BoardRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/tests/BoardRepositoryTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/GameController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/tests/GameControllerTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/GameView.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/tests/GameViewTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Board.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../.local/share/Symbols/src/nunit/nunit/c933a883ea25263ec575a654dae69fa38000edd9/src/NUnitFramework/framework/Attributes/TestCaseAttribute.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/tests/AcceptanceTests.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -226,38 +69,6 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectView">
-    <navigator currentView="SolutionExplorer" proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="AssemblyExplorer" />
-      <pane id="SolutionExplorer">
-        <subPane>
-          <expand>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="TicTacToeJoe" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="TicTacToeJoe" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="src" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="TicTacToeJoe" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="tests" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-        <option name="show-all-files" value="false" />
-      </pane>
-      <pane id="Scratches" />
-      <pane id="FileSystemExplorer" />
-    </panes>
-  </component>
   <component name="PropertiesComponent">
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
@@ -271,18 +82,6 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.environmentSetup" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected=".NET Project.Default">
     <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
@@ -318,40 +117,6 @@
     </task>
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2293000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="NuGet" weight="0.32891566" />
-      <window_info anchor="bottom" id="Docker" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Unit Tests" visible="true" weight="0.36385542" />
-      <window_info anchor="bottom" id="Terminal" weight="0.24216868" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Performance Profiler" />
-      <window_info anchor="bottom" id="Build" weight="0.32891566" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Errors In Solution" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Unit Tests Coverage" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
@@ -363,12 +128,6 @@
         <entry key="MAIN">
           <value>
             <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
               <option name="COLUMN_ORDER" />
             </State>
           </value>
@@ -489,168 +248,10 @@
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/IBoardRepository.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-          <folding>
-            <marker date="1585655407448" expanded="true" signature="13:127" ph="{...}" />
-            <marker date="1585655407448" expanded="true" signature="53:125" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Board.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <marker date="1585665619612" expanded="true" signature="13:96" ph="{...}" />
-            <marker date="1585665619612" expanded="true" signature="38:94" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BoardRepository.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
-          <folding>
-            <marker date="1585655531030" expanded="true" signature="6:35" ph="..." />
-            <marker date="1585655531030" expanded="true" signature="50:638" ph="{...}" />
-            <marker date="1585655531030" expanded="true" signature="104:636" ph="{...}" />
-            <marker date="1585655531030" expanded="true" signature="202:256" ph="{...}" />
-            <marker date="1585655531030" expanded="true" signature="298:441" ph="{...}" />
-            <marker date="1585655531030" expanded="true" signature="473:630" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/GameControllerTests.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="90" column="9" lean-forward="true" selection-start-line="90" selection-start-column="9" selection-end-line="90" selection-end-column="9" />
-          <folding>
-            <marker date="1585666305033" expanded="false" signature="6:68" ph="..." />
-            <marker date="1585666305033" expanded="true" signature="85:3639" ph="{...}" />
-            <marker date="1585666305033" expanded="true" signature="142:3637" ph="{...}" />
-            <marker date="1585666305033" expanded="true" signature="331:642" ph="{...}" />
-            <marker date="1585666305033" expanded="true" signature="500:631" ph="{...}" />
-            <marker date="1585666305033" expanded="true" signature="703:828" ph="{...}" />
-            <marker date="1585666305033" expanded="true" signature="885:1031" ph="{...}" />
-            <marker date="1585666305033" expanded="true" signature="1115:1526" ph="{...}" />
-            <marker date="1585666305033" expanded="true" signature="1232:1363" ph="{...}" />
-            <marker date="1585666305033" expanded="true" signature="1611:2025" ph="{...}" />
-            <marker date="1585666305033" expanded="true" signature="1728:1862" ph="{...}" />
-            <marker date="1585666305033" expanded="true" signature="2107:2521" ph="{...}" />
-            <marker date="1585666305033" expanded="true" signature="2224:2358" ph="{...}" />
-            <marker date="1585666305033" expanded="true" signature="2581:2957" ph="{...}" />
-            <marker date="1585666305033" expanded="true" signature="2698:2832" ph="{...}" />
-            <marker date="1585666305033" expanded="false" signature="3018:3631" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/tests.csproj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/BoardRepositoryTests.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
-          <folding>
-            <marker date="1585655407445" expanded="true" signature="6:135" ph="..." />
-            <marker date="1585655407445" expanded="true" signature="152:1482" ph="{...}" />
-            <marker date="1585655407445" expanded="true" signature="192:1480" ph="{...}" />
-            <marker date="1585655407445" expanded="true" signature="362:522" ph="{...}" />
-            <marker date="1585655407445" expanded="true" signature="573:629" ph="{...}" />
-            <marker date="1585655407445" expanded="true" signature="684:853" ph="{...}" />
-            <marker date="1585655407445" expanded="true" signature="912:1201" ph="{...}" />
-            <marker date="1585655407445" expanded="true" signature="1250:1474" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/GameViewTests.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="45" column="14" lean-forward="true" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
-          <folding>
-            <marker date="1585667358004" expanded="true" signature="6:76" ph="..." />
-            <marker date="1585667358004" expanded="true" signature="93:1456" ph="{...}" />
-            <marker date="1585667358004" expanded="true" signature="144:1454" ph="{...}" />
-            <marker date="1585667358004" expanded="true" signature="237:352" ph="{...}" />
-            <marker date="1585667358004" expanded="true" signature="435:529" ph="{...}" />
-            <marker date="1585667358004" expanded="true" signature="592:758" ph="{...}" />
-            <marker date="1585667358004" expanded="true" signature="829:1349" ph="{...}" />
-            <marker date="1585667358004" expanded="true" signature="891:1109" ph="{...}" />
-            <marker date="1585667358004" expanded="true" signature="1384:1448" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GameView.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-          <folding>
-            <marker date="1585667358007" expanded="true" signature="13:326" ph="{...}" />
-            <marker date="1585667358007" expanded="true" signature="41:324" ph="{...}" />
-            <marker date="1585667358007" expanded="true" signature="103:318" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GameController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="26" column="41" lean-forward="true" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
-          <folding>
-            <marker date="1585666335305" expanded="true" signature="13:815" ph="{...}" />
-            <marker date="1585666335305" expanded="true" signature="47:813" ph="{...}" />
-            <marker date="1585666335305" expanded="true" signature="189:281" ph="{...}" />
-            <marker date="1585666335305" expanded="true" signature="313:577" ph="{...}" />
-            <marker date="1585666335305" expanded="true" signature="358:489" ph="{...}" />
-            <marker date="1585666335305" expanded="true" signature="621:807" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Program.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-          <folding>
-            <marker date="1585667393826" expanded="true" signature="28:471" ph="{...}" />
-            <marker date="1585667393826" expanded="true" signature="55:469" ph="{...}" />
-            <marker date="1585667393826" expanded="true" signature="108:463" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/AcceptanceTests.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="38" column="12" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
-          <folding>
-            <marker date="1585668000384" expanded="true" signature="6:118" ph="..." />
-            <marker date="1585668000384" expanded="true" signature="135:1640" ph="{...}" />
-            <marker date="1585668000384" expanded="true" signature="170:1638" ph="{...}" />
-            <marker date="1585668000384" expanded="true" signature="345:440" ph="{...}" />
-            <marker date="1585668000384" expanded="true" signature="491:590" ph="{...}" />
-            <marker date="1585668000384" expanded="true" signature="669:967" ph="{...}" />
-            <marker date="1585668000384" expanded="true" signature="1039:1350" ph="{...}" />
-            <marker date="1585668000384" expanded="true" signature="1397:1474" ph="{...}" />
-            <marker date="1585668000384" expanded="true" signature="1514:1632" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo typeName="tests.GameControllerTests" fieldName="EmptyBoard" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
 </project>
